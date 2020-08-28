@@ -27,6 +27,7 @@ function main(opts) {
                     {
                         duration: Date.now() - req.requestTime,
                         requestParams : req.params,
+                        requestQuery: req.query,
                         requestBody: req.body,
                         responseCode: res.statusCode
                     });
