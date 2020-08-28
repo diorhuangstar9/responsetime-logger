@@ -1,0 +1,24 @@
+{
+  "name": "responsetime-logger",
+  "version": "1.0.0",
+  "description": "log response duration(milliseconds)",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henryhuangstar9/responsetime-logger.git"
+  },
+  "keywords": [
+    "request",
+    "response",
+    "duration",
+    "log"
+  ],
+  "author": "DiorHuang",
+  "license": "ISC",
+  "dependencies": {
+    "on-finished": "^2.3.0"
+  }
+}
